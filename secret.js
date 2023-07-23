@@ -8,7 +8,7 @@ secretMessage.pop();
 
 // Check length
 
-console.log(secretMessage.length);
+// console.log(secretMessage.length);
 
 // Add strings to end of array
 
@@ -33,3 +33,7 @@ secretMessage.unshift('Programming');
 // console.log(secretMessage.indexOf('get'));
 
 secretMessage.splice(6, 11, 'know');
+
+// Print array as a sentence
+
+console.log(secretMessage.join(' '));
