@@ -10,7 +10,7 @@ secretMessage.pop();
 
 console.log(secretMessage.length);
 
-// Add words to end of array
+// Add strings to end of array
 
 secretMessage.push('to', 'Program');
 
@@ -19,3 +19,7 @@ secretMessage.push('to', 'Program');
 // console.log(secretMessage.indexOf('easily'));
 
 secretMessage[7] = 'right';
+
+// Remove first string
+
+secretMessage.shift();
