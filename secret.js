@@ -23,3 +23,8 @@ secretMessage[7] = 'right';
 // Remove first string
 
 secretMessage.shift();
+
+// Add string to beginning of array
+
+secretMessage.unshift('Programming');
+
