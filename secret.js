@@ -13,3 +13,9 @@ console.log(secretMessage.length);
 // Add words to end of array
 
 secretMessage.push('to', 'Program');
+
+// Replace word
+
+// console.log(secretMessage.indexOf('easily'));
+
+secretMessage[7] = 'right';
