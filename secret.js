@@ -6,3 +6,6 @@ let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get', 'ea
 
 secretMessage.pop();
 
+// Check length
+
+console.log(secretMessage.length);
