@@ -28,3 +28,8 @@ secretMessage.shift();
 
 secretMessage.unshift('Programming');
 
+// Remove strings and replace with one string
+
+// console.log(secretMessage.indexOf('get'));
+
+secretMessage.splice(6, 11, 'know');
