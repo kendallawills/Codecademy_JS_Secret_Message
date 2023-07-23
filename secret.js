@@ -9,3 +9,7 @@ secretMessage.pop();
 // Check length
 
 console.log(secretMessage.length);
+
+// Add words to end of array
+
+secretMessage.push('to', 'Program');
